@@ -14,6 +14,9 @@
  *   escalade: L2, L3, SAP, Mobility, SLS, réseau, sécurité
  *
  * Le script fait une "meilleure tentative" — il peut laisser des placeholders si des informations manquent.
+ * 
+ * Amaf 2025 
+ *   /__IGNORE_---
  */
 
 const KNOWN_TOOLS = [
@@ -170,15 +173,15 @@ function formatTicket(note) {
 
   const output = [
     '---',
-    '### 🧾 Description',
+    '###  Description',
     `- ${summary}`,
     '',
     description,
     '---',
-    '### 🛠️ Note de travail interne',
+    '###  Note de travail interne',
     internalNotes,
     '---',
-    '### 💬 Commentaire visible par le client',
+    '###  Commentaire visible par le client',
     clientComment,
     '---'
   ].join('\n');
