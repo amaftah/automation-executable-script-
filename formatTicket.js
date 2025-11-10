@@ -15,7 +15,7 @@
  *
  * Le script fait une "meilleure tentative" — il peut laisser des placeholders si des informations manquent.
  * 
- * Amaf 2025 
+ * Amaf @2025 
  *   /__IGNORE_---
  */
 
